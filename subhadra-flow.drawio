@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-799" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="4350" width="490" height="490" as="geometry" />
+        </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-768" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="290" y="3530" width="790" height="790" as="geometry" />
         </mxCell>
@@ -1737,7 +1740,7 @@
           <mxGeometry x="525" y="3520" width="305" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-772" value="t_recommended_applications" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="670.38" y="4380" width="279.25" height="454" as="geometry">
+          <mxGeometry x="700.38" y="4368" width="279.25" height="454" as="geometry">
             <mxRectangle x="445" y="-710" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1761,7 +1764,7 @@
             <mxPoint x="-0.2222222222221717" y="124.00000000000091" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mOaUi8r3s6zJGnczRY0B-779" value="reviewed_transaction_id=13(FK)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-772">
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-779" value="reviewed_transaction_id=13(FK)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-772">
           <mxGeometry y="130" width="279.25" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-780" value="district_status=can apporve or reject by district" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-772">
@@ -1811,6 +1814,18 @@
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-794" value="P13-&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="-985" y="3770" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-796" value="THE APPLICATION WHICH IS NOT FINALLY APPROVE/REJECT WE WILL UPDATE IN THE DIST STATUS OF APPLICATION TABLE MANUALLY EACH NIGHT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="4390" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-798" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mOaUi8r3s6zJGnczRY0B-797" target="mOaUi8r3s6zJGnczRY0B-796">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-797" value="P14-&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="4405" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-800" value="MANUALLY UPDATE TEH FINALLY APPROVE/REJECT APPLICATION" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="700.38" y="4330" width="305" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

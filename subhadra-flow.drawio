@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
-    <mxGraphModel dx="2466" dy="2373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3490" dy="2878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -428,13 +428,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-242" value="AFTER PUBLISH OBJECTION WILL COME AGAINST FIELD VERIFIED APPLICANT WE WILL MAKE THE IS OBJECTED =1 AND THE OBEJCTION WILL STORE IN RESPECTIVE TABLE&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="-465" width="600" height="60" as="geometry" />
+          <mxGeometry x="-940" y="68.5" width="600" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-244" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mOaUi8r3s6zJGnczRY0B-243" target="mOaUi8r3s6zJGnczRY0B-242">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-243" value="P5-&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="-455" width="50" height="30" as="geometry" />
+          <mxGeometry x="-1010" y="83.5" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-38" value="t_partition_application" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="-712" width="210" height="190" as="geometry" />
@@ -657,19 +657,14 @@
             <mxPoint x="-73" y="-35" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mOaUi8r3s6zJGnczRY0B-388" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mOaUi8r3s6zJGnczRY0B-385">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-950" y="-350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-385" value="THE APPLICATIONS AGAINST WE ARE GENERATING THE RANDOM LIST ON A WHERE CONDITION&lt;div&gt;FIRST WE ARE ASSIGNING THE DATE(gen_date)(100)AND ADDING 1 TO RANDOM SELECTED ROWS(5) AND ELSE ARE 0 (BLOCK ANDULB LEVEL GENERATION )&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="-390" width="600" height="60" as="geometry" />
+          <mxGeometry x="-940" y="1190" width="600" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-387" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mOaUi8r3s6zJGnczRY0B-386" target="mOaUi8r3s6zJGnczRY0B-385">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-386" value="P6-&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-1035" y="-370" width="50" height="30" as="geometry" />
+          <mxGeometry x="-1010" y="1204" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-425" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mOaUi8r3s6zJGnczRY0B-258">
           <mxGeometry relative="1" as="geometry">
@@ -983,13 +978,13 @@
           <mxGeometry y="712" width="270" height="28" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-527" value="AFTER 7 DAYS WHEN IT WILL COME TO THE APPROVAL TO BLOCK/ULB HERE USER CAN MOVE TO ELIGIBLE OR INELIGIBLE AS PER THEIR SELF WHICH ARE NOT OBJECTED" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="-310" width="600" height="60" as="geometry" />
+          <mxGeometry x="-930" y="1460" width="600" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-529" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mOaUi8r3s6zJGnczRY0B-528" target="mOaUi8r3s6zJGnczRY0B-527">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-528" value="P7-&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-1035" y="-295" width="50" height="30" as="geometry" />
+          <mxGeometry x="-1010" y="1475" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-579" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.736;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mOaUi8r3s6zJGnczRY0B-531" target="mOaUi8r3s6zJGnczRY0B-548">
           <mxGeometry relative="1" as="geometry" />

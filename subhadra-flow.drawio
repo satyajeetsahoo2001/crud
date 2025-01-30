@@ -1,19 +1,70 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
-    <mxGraphModel dx="2787" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2203" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mOaUi8r3s6zJGnczRY0B-258" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="760" y="-763.5" width="310" height="1433.5" as="geometry" />
         </mxCell>
-        <mxCell id="mOaUi8r3s6zJGnczRY0B-246" value="t_grievance" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-246" value="t_grievance_history" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="527" y="110" width="210" height="610" as="geometry">
             <mxRectangle x="445" y="-710" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mOaUi8r3s6zJGnczRY0B-247" value="&lt;div&gt;id&lt;/div&gt;&lt;div&gt;grievance_ref_no&lt;/div&gt;&lt;div&gt;father_name&lt;/div&gt;&lt;div&gt;aadhaar_no&lt;/div&gt;&lt;div&gt;grievance_category_id&lt;/div&gt;&lt;div&gt;enrollment_no&lt;/div&gt;&lt;div&gt;applicant_name&lt;/div&gt;&lt;div&gt;ineligible_id&lt;/div&gt;&lt;div&gt;grievance_details&lt;/div&gt;&lt;div&gt;grievance_status&lt;/div&gt;&lt;div&gt;created_by&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;div&gt;updated_by&lt;/div&gt;&lt;div&gt;updated_at&lt;/div&gt;&lt;div&gt;district_id&lt;/div&gt;&lt;div&gt;block_id&lt;/div&gt;&lt;div&gt;ulb_id&lt;/div&gt;&lt;div&gt;gp_id&lt;/div&gt;&lt;div&gt;ward_id&lt;/div&gt;&lt;div&gt;village&lt;/div&gt;&lt;div&gt;house_no&lt;/div&gt;&lt;div&gt;phone&lt;/div&gt;&lt;div&gt;grievance_header&lt;/div&gt;&lt;div&gt;type&lt;/div&gt;&lt;div&gt;submitted_by&lt;/div&gt;&lt;div&gt;application_status&lt;/div&gt;&lt;div&gt;reason&lt;/div&gt;&lt;div&gt;is_invalid_grv&lt;/div&gt;&lt;div&gt;smt_district&lt;/div&gt;&lt;div&gt;smt_block&lt;/div&gt;&lt;div&gt;smt_ulb&lt;/div&gt;&lt;div&gt;smt_gp&lt;/div&gt;&lt;div&gt;smt_ward&lt;/div&gt;&lt;div&gt;smt_dept_user_id&lt;/div&gt;&lt;div&gt;photo&lt;/div&gt;&lt;div&gt;grievance_specified_details&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
-          <mxGeometry y="26" width="210" height="534" as="geometry" />
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-263" value="id-2(PK)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-264" value="grievance_ref_no=88998899" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-265" value="father_name=abc(smt user)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="78" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-266" value="aadhaar_no=7397858987(smt user)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="104" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-267" value="enrollment_no=SU-88888(applicant)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="130" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-268" value="applicant_name=ABC" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="156" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-269" value="grievance_details-Should be Reject" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="182" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-270" value="grievance_status=0&lt;div&gt;&amp;nbsp;(0-pdng/1-aprv)(2reject)&lt;/div&gt;" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="208" width="210" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-271" value="created_by=1" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="250" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-272" value="updated_by=NULL" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="276" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-273" value="updated_at=NULL" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="302" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-274" value="district_id=1(applicant)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="328" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-275" value="block_id=1" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="354" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-276" value="ulb_id=1(if not block)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="380" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-277" value="gp_id=5(if block)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="406" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-278" value="ward_id-=5" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="432" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-279" value="village=55(if gp)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="458" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-280" value="village=55(if gp)" style="text;html=1;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mOaUi8r3s6zJGnczRY0B-246">
+          <mxGeometry y="484" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-256" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-80" y="-763.5" width="817" height="817" as="geometry" />
@@ -37,7 +88,7 @@
           <mxGeometry x="30" y="-190" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-1" value="&lt;h1&gt;&amp;nbsp;SUBHADRA-FIELD-VERIFICATION-APPROVAL-FLOW&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="-850" width="640" height="70" as="geometry" />
+          <mxGeometry x="-350" y="-890" width="640" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-12" value="P-1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="50" y="-730" width="40" height="30" as="geometry" />
@@ -455,6 +506,9 @@
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-260" value="PUBLISHED FLOW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="830" y="-787" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-247" value="&lt;div&gt;id&lt;/div&gt;&lt;div&gt;grievance_ref_no&lt;/div&gt;&lt;div&gt;father_name&lt;/div&gt;&lt;div&gt;aadhaar_no&lt;/div&gt;&lt;div&gt;enrollment_no&lt;/div&gt;&lt;div&gt;applicant_name&lt;/div&gt;&lt;div&gt;grievance_details&lt;/div&gt;&lt;div&gt;grievance_status&lt;/div&gt;&lt;div&gt;created_by&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;div&gt;updated_by&lt;/div&gt;&lt;div&gt;updated_at&lt;/div&gt;&lt;div&gt;district_id&lt;/div&gt;&lt;div&gt;block_id&lt;/div&gt;&lt;div&gt;ulb_id&lt;/div&gt;&lt;div&gt;gp_id&lt;/div&gt;&lt;div&gt;ward_id&lt;/div&gt;&lt;div&gt;village&lt;/div&gt;&lt;div&gt;phone&lt;/div&gt;&lt;div&gt;type&lt;/div&gt;&lt;div&gt;submitted_by&lt;/div&gt;&lt;div&gt;application_status&lt;/div&gt;&lt;div&gt;is_invalid_grv&lt;/div&gt;&lt;div&gt;smt_district&lt;/div&gt;&lt;div&gt;smt_block&lt;/div&gt;&lt;div&gt;smt_ulb&lt;/div&gt;&lt;div&gt;smt_gp&lt;/div&gt;&lt;div&gt;smt_ward&lt;/div&gt;&lt;div&gt;smt_dept_user_id&lt;/div&gt;&lt;div&gt;photo&lt;/div&gt;&lt;div&gt;grievance_remark_type_id&lt;/div&gt;&lt;div&gt;grievance_remark_type_value&lt;/div&gt;&lt;div&gt;applicant_cast_id&lt;/div&gt;&lt;div&gt;received_grievance_date&lt;/div&gt;&lt;div&gt;alternative_phone&lt;/div&gt;&lt;div&gt;source_of_grievance&lt;/div&gt;&lt;div&gt;other_source&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="210" height="534" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

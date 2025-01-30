@@ -1,14 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
-    <mxGraphModel dx="3012" dy="2643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="5197" dy="3720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mOaUi8r3s6zJGnczRY0B-799" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="590" y="4350" width="490" height="490" as="geometry" />
+          <mxGeometry x="120" y="4470" width="490" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-803" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mOaUi8r3s6zJGnczRY0B-768" target="mOaUi8r3s6zJGnczRY0B-799">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-768" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="290" y="3530" width="790" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="mOaUi8r3s6zJGnczRY0B-802" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mOaUi8r3s6zJGnczRY0B-671" target="mOaUi8r3s6zJGnczRY0B-799">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-671" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-100" y="3530" width="370" height="800" as="geometry" />
@@ -1740,7 +1746,7 @@
           <mxGeometry x="525" y="3520" width="305" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-772" value="t_recommended_applications" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="700.38" y="4368" width="279.25" height="454" as="geometry">
+          <mxGeometry x="230.75" y="4488" width="279.25" height="454" as="geometry">
             <mxRectangle x="445" y="-710" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1825,7 +1831,7 @@
           <mxGeometry x="-980" y="4405" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mOaUi8r3s6zJGnczRY0B-800" value="MANUALLY UPDATE TEH FINALLY APPROVE/REJECT APPLICATION" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="700.38" y="4330" width="305" height="30" as="geometry" />
+          <mxGeometry x="220" y="4450" width="305" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
